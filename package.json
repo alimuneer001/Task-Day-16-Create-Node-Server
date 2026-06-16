@@ -4,10 +4,13 @@
   "description": "",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "read": "node read-file.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["dev", "start", "node", "nodemon", "build", "run", "read", "file"],
+  "author": "Ali Muneer",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {

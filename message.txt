@@ -1,0 +1,3 @@
+Hello Ali!
+This text is coming from message.txt file.
+Node.js is reading this file.

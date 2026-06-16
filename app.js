@@ -1,8 +1,11 @@
 const http = require("http");
 
 const server = http.createServer((request, response) => {
-  response.write("Hello World from Node.js server");
-  response.end();
+  response.writeHead(200, {
+    "Content-Type": "text/plain",
+  });
+
+  response.end("Hello World from Node.js server");
 });
 
 server.listen(3000, () => {
